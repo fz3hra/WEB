@@ -1,0 +1,150 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(147, 84, 219);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  min-height: 100vh;
+}
+
+nav {
+  font-size: 25px;
+  color: white;
+  /* margin-left: 3rem; */
+  margin: 2rem 4rem;
+}
+
+main {
+  /* display: flex;
+  justify-content: center; */
+  /* padding: 3rem; */
+  background-image: url(./huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+  background-position: center;
+  background-size: cover;
+  /* background-position-y: -10rem; */
+}
+
+img {
+  /* weight: 40px; */
+  /* width: 100%; */
+  padding-left: 3.6rem;
+  margin-top: 4rem;
+  padding-right: 5rem;
+}
+
+aside {
+  display: block;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  margin-top: 13rem;
+}
+
+.text {
+  width: 80%;
+  text-align: left;
+  color: white;
+}
+
+h2 {
+  font-size: 50px;
+}
+p {
+  width: 78%;
+  font-size: 15px;
+  /* text-align: left; */
+}
+button {
+  margin-right: 35rem;
+  background-color: white;
+  color: rgb(147, 84, 219);
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  border-color: white;
+}
+
+button:hover {
+  background-color: violet;
+  color: white;
+  border-color: violet;
+}
+
+footer {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+  position: absolute;
+  bottom: 0;
+  margin-left: 75rem;
+  margin-bottom: 3rem;
+}
+footer a {
+  color: white;
+  padding: 25px;
+  font-size: 16px;
+}
+
+a:hover {
+  color: violet;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-top: -5rem;
+  }
+
+  img {
+    /* width: 60%; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  img,
+  aside {
+    width: 100%;
+    height: auto;
+  }
+
+  .text {
+    width: 93%;
+  }
+
+  div h2 {
+    /* margin: 0; */
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -13rem;
+    padding: 2rem;
+  }
+
+  div p {
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: -3rem;
+  }
+
+  aside button {
+    margin-left: 10rem;
+  }
+  footer a {
+    position: absolute;
+    bottom: 0%;
+  }
+}
